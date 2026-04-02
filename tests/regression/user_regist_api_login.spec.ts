@@ -11,7 +11,7 @@ test('Delete User Account', async({page, signupLoginPage, userCreation, homePage
     await homePage.LoggedinuseAndDeleteUserrverification(userData.ranData.name)
 })
 
-test.skip('Contact Us validations', async({contactUsPage})=>{
+test('Contact Us validations', async({contactUsPage})=>{
 
    
     await contactUsPage.ContectUsValidations()
