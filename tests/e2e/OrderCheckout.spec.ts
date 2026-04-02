@@ -73,7 +73,7 @@ test('Place order for Kids Tops and Tshirts', async({page, paymentPage, basePage
     await cartPage.placeOrder()
     await paymentPage.ConfirmOrder()
 })
-/* 
+
 
 test('Place order for POLO Brand', async({page, paymentPage, basePage,cartPage, signupLoginPage, accountcreationPage, homePage, productPage, dataReadAndWrite})=>{
 
@@ -268,4 +268,3 @@ test('Place order for Allen Solly Brand', async({page, paymentPage, basePage,car
     await paymentPage.ConfirmOrder()
 })
 
- */

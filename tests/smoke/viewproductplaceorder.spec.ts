@@ -1,4 +1,4 @@
-/* 
+
 import { test } from '../../fixtures/CustomFixutures'
 import { expect } from '@playwright/test'
 import RandomDataGenerator from '../../utils/RandomDataGenerator'
@@ -15,4 +15,4 @@ test('Place order for By View product details page', async({page, paymentPage, b
     await paymentPage.ConfirmOrder()
     await page.waitForTimeout(3000)
 })
- */
+ 

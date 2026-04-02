@@ -1,4 +1,4 @@
-/* import { test } from '../../fixtures/CustomFixutures'
+import { test } from '../../fixtures/CustomFixutures'
 import { expect } from '@playwright/test'
 import RandomDataGenerator from '../../utils/RandomDataGenerator'
 test('User data validation through API', async ({ request, signupLoginPage, accountcreationPage, homePage }) => {
@@ -87,4 +87,4 @@ test('Create/Register User Account', async ({ page, request, signupLoginPage }) 
         expect(jsonBody.message).toBe('User created!')
         await signupLoginPage.AppLogin(ranData.email, ranData.password)
         await page.waitForTimeout(3000)
-}) */
+})
